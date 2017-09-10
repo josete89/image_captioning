@@ -1,0 +1,13 @@
+name: captioning-image
+dependencies:
+- python=2.7
+- pip
+- numpy
+- jupyter
+- pillow  
+- pip:
+    - tensorflow==1.1
+    - keras==2.0.4
+    - h5py
+    - coremltools
+    
